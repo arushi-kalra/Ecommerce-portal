@@ -1,0 +1,41 @@
+
+/*.p
+{
+	text-align: center;
+	text-decoration-color: red;
+	justify-content: center;
+	align-items: center;
+}*/
+#one
+{
+	font-size: 200%;
+}
+div.row
+{
+	padding: 50px;
+	border:1px solid grey;
+
+}
+/*div.a
+{
+	border:1px solid black;
+}*/
+
+
+h1
+{
+	
+	text-shadow: 5px 5px 8px #8B2E5F ;
+	line-height: 150px;
+	text-align: center;
+	font-size:50px;
+	color:#246D5F;
+
+
+	
+}
+body{
+	
+	background-image: url(images/1.png) ;
+	background-repeat: repeat;
+}

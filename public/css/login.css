@@ -1,0 +1,22 @@
+.my-col-md-7{
+  margin: 0 auto;
+  margin-left: 35%;
+  width: 800px;
+}
+
+.my-col-md-6{
+  margin: 0 auto;
+  margin-left: 23%;
+  width: 600px;
+}
+
+.my-col-md-3{
+  margin: 0 auto;
+  float: right;
+  width: 150px;
+}
+
+.clear {
+  clear: both;
+}
+
