@@ -1,6 +1,14 @@
-FROM node:10
+FROM ubuntu:latest
 WORKDIR /app
-COPY package.json /app
-RUN npm install
-COPY . .
-CMD ["npm", "test"]
+
+RUN apt-get -y update
+
+RUN apt-get install -y nodejs
+
+RUN apt-get install -y npm
+
+RUN npm install -g http-server
+
+ADD . /app
+
+CMD ["http-server","-s"]
