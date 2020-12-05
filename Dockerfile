@@ -12,3 +12,5 @@ RUN npm install -g http-server
 ADD . /app
 
 CMD ["http-server","-s"]
+
+COPY . .
